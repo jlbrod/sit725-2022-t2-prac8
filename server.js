@@ -4,7 +4,7 @@ const app = require('express')();
 const server = require('http').createServer(app);
 const io = require('socket.io')(server);
 
-const MongoClient = require('mongoDb').MongoClient;
+//const MongoClient = require('mongoDb').MongoClient;
 var cors = require('cors')
 let dbConnect = require("./dbConnect");
 let projectRoutes = require("./routes/projectRoutes");
