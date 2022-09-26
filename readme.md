@@ -1,14 +1,18 @@
-## Run The Appllication
+## To run the Application
+
+## Install docker CLI
+
+## Pull down docker image
+
+## Run Docker
+
+## Access application
 
 Open the project in visual studio code
 
 ```
-##  Install docker CLI
-##  Pull down docker image
 $  docker pull jlbroderick/toptales
-##  Run Docker
 $  docker run -d -p 3000:3000 jlbroderick/toptales
-##  Access application
 $  http://localhost:3000
 
 ```
